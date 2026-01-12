@@ -25,6 +25,24 @@ Raw CSV Data
 4. Processed data registered using Glue Crawler
 5. SQL analytics performed using Athena
 
+## Project Proof (AWS Console Screenshots)
+
+### Amazon S3 – Data Lake Structure
+Raw and processed data stored in Amazon S3.
+![S3 Data Lake](screenshots/s3_data_lake.png)
+
+### AWS Glue – Spark ETL Job
+PySpark ETL job executed successfully in AWS Glue.
+![Glue Job](screenshots/glue_job_success.png)
+
+### AWS Glue Data Catalog
+Processed dataset registered using Glue Crawler.
+![Glue Catalog](screenshots/glue_catalog_table.png)
+
+### Amazon Athena – SQL Analytics
+SQL queries executed successfully on processed data.
+![Athena Query](screenshots/athena_query_result.png)
+
 ## Notes
 - Entire project implemented inside AWS Console
 - No local execution or external scripts used
